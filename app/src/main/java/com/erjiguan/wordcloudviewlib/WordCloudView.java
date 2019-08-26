@@ -1,4 +1,4 @@
-package com.erjiguan.wordcloudview;
+package com.erjiguan.wordcloudviewlib;
 
 import android.content.Context;
 import android.graphics.Color;
