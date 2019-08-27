@@ -41,6 +41,10 @@ public class WordCloudView extends FrameLayout implements View.OnClickListener {
         super(context, attrs, defStyleAttr);
     }
 
+    public void CleanWordCloudView() {
+        placed.clear();
+    }
+
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         int n = getChildCount();
